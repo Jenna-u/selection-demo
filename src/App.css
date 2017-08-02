@@ -1,0 +1,68 @@
+::selection {
+  color: white;
+  background: orange;
+}
+
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.wrap {
+  margin: 2% auto 0;
+  width: 80%;
+  height: 40%;
+  border: 1px solid #ccc;
+}
+
+.controls {
+  margin: 5% auto 0;
+  width: 80%;
+}
+
+.controls button {
+  width: 15%;
+  height: 5%;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  margin-right: 2%;
+  outline: none;
+  cursor: pointer;
+}
+
+.wr-mark-code {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  line-height: 22px;
+  border-radius: 100px;
+  color: #fff;
+  background: #FE7272;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.wr-mark-text {
+  color: #FE7272;
+}
